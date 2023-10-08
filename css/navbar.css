@@ -1,0 +1,100 @@
+/* Basic CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    background-color: #d9ffd1;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+ 
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+  main {
+    text-align: left;
+  }
+
+  section {
+    float: left;
+    margin: 50px;
+  }
+
+  aside {
+    align-items: right;
+  }
+
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+     width: 100%;
+    text-align: center;
+  }
+  /* Start Styling the NAVBAR : using flexbox */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #67b339;
+    color: black;
+  }
+  .nav-links a {
+    color: black;
+  }
+  /* Style the logo */
+  .logo {
+    font-size: 32px;
+  }
+  
+  /* navbar menu */
+  .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 16px;
+  }
+  
+  .menu li {
+    padding: 5px 14px;
+  }
+  
+  .menu li:hover {
+    background-color: #67b339
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  .menu li {
+    padding: 5px 14px;
+  }
+ /* unvisited link */
+ a:link {
+    color: #268bee;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: #8926ee;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #2627ee;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #ee2627;
+  } 
